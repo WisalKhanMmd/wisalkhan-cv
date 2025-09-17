@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Muhammad Wisal Khan</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      margin: 0;
+      background: #f4f6f9;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0077b6, #00b4d8);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    header p {
+      margin: 5px 0;
+      font-size: 18px;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: 20px auto;
+    }
+
+    .section {
+      background: white;
+      margin-bottom: 20px;
+      padding: 20px;
+      border-left: 6px solid #00b4d8;
+      border-radius: 8px;
+      box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .section h2 {
+      margin-top: 0;
+      color: #0077b6;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 5px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .contact a {
+      color: #00b4d8;
+      text-decoration: none;
+    }
+
+    .skills, .languages, .additional {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 10px;
+    }
+
+    .skills li, .languages li, .additional li {
+      background: #e9f5f9;
+      padding: 8px 12px;
+      border-radius: 6px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #0077b6;
+      color: white;
+      margin-top: 20px;
+      border-top: 4px solid #00b4d8;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Muhammad Wisal Khan</h1>
+    <p>Peshawar, Pakistan | +92 326 3164034</p>
+    <p>Email: <a href="mailto:wisalkhann112233@gmail.com" style="color:white;">wisalkhann112233@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/wisal-khan-717a82364" target="_blank" style="color:white;">linkedin.com/in/wisal-khan</a></p>
+  </header>
+
+  <div class="container">
+    <div class="section">
+      <h2>🎯 Skills</h2>
+      <ul class="skills">
+        <li>Clear, persuasive communication & stakeholder engagement</li>
+        <li>Risk identification, analysis, and mitigation strategies</li>
+        <li>Time management & resource optimization</li>
+        <li>Budgeting and cost-saving techniques</li>
+        <li>Strategic decision-making</li>
+        <li>Motivational leadership</li>
+        <li>Conflict resolution & negotiation</li>
+        <li>Task management: Trello, Asana</li>
+        <li>Visual planning: Gantt charts</li>
+        <li>Microsoft Office Suite</li>
+        <li>AI-powered project management</li>
+        <li>Real-time tracking dashboards</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>🎓 Education</h2>
+      <p><strong>Bachelor of Science in Information Technology</strong><br>
+      University of Agriculture, Peshawar, Pakistan</p>
+      <ul>
+        <li>Currently in 5th semester (Started: 2023)</li>
+        <li>Expected Graduation: Early 2027</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>📜 Certifications & Courses</h2>
+      <p><strong>Google Project Management Professional Certificate</strong></p>
+      <ul>
+        <li>Fundamentals of Project Management</li>
+        <li>Agile Project Initiation</li>
+        <li>Applying Project Foundations</li>
+        <li>Project Execution & Planning</li>
+      </ul>
+      <p><strong>HP LIFE Courses</strong></p>
+      <ul>
+        <li>Agile Management</li>
+        <li>Effective Communication and Presentations</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>🛠 Projects & Experience</h2>
+      <p><strong>A) Digital Awareness Workshop</strong><br>
+      <em>Role:</em> Project Coordinator | <em>Location:</em> University of Agriculture Peshawar | <em>Date:</em> July 20, 2025</p>
+      <p>Organized a one-day workshop to promote digital literacy among students. Managed logistics, speaker coordination, and promotional activities.</p>
+      <ul>
+        <li>Led communication strategy showcasing digital success stories</li>
+        <li>Used Trello and Gantt charts for task management</li>
+        <li>Achieved 15% reduction in delays and 10% cost savings</li>
+      </ul>
+
+      <p><strong>B) Water Awareness Campaign in Tribal Areas</strong><br>
+      <em>Role:</em> Community Project Lead | <em>Location:</em> Lower Mohmand Tribal Area | <em>Duration:</em> March – April 2024</p>
+      <p>Led a community initiative to promote water conservation and hygiene. Delivered educational sessions, coordinated resources, and tracked impact.</p>
+      <ul>
+        <li>Improved health awareness through targeted education</li>
+        <li>Partnered with local leaders for outreach</li>
+        <li>Applied project management principles for reporting</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>🌐 Languages</h2>
+      <ul class="languages">
+        <li>Pashto: Native</li>
+        <li>Urdu: Fluent</li>
+        <li>English: Advanced</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>💡 Additional Information</h2>
+      <ul class="additional">
+        <li>Strong cross-cultural communication</li>
+        <li>Passionate learner (AI & Tech Project Management)</li>
+        <li>Volunteer experience in community education</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 Muhammad Wisal Khan | Designed with 💙</p>
+  </footer>
+</body>
+</html>
